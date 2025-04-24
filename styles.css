@@ -91,10 +91,34 @@ body {
   }
   
   b {
-    margin: 3rem;
+    margin: 2rem;
     text-transform: uppercase;
     font-size: 0.9rem;
     font-weight: bold;
     display: inline-block;
+  }
+  
+  .stack-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-top: 1rem;
+  }
+  
+  .tag {
+    background-color: #2e2e2e;
+    color: #f0f0f0;
+    padding: 0.4rem 0.75rem;
+    font-size: 0.85rem;
+    border-radius: 1rem;
+    border: 1px solid #444;
+    white-space: nowrap;
+    transition: background-color 0.2s;
+  }
+  
+  .tag:hover {
+    background-color: #0d6efd;
+    color: #ffffff;
+    cursor: default;
   }
   
