@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #1e1e1e;
+    color: #f0f0f0;
+    line-height: 1.6;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+  
+  header {
+    background-color: #121212;
+    padding: 2rem 0;
+    border-bottom: 1px solid #333;
+    text-align: center;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 2rem;
+  }
+  
+  .subtitle {
+    font-size: 1rem;
+    color: #999;
+  }
+  
+  .nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+    gap: 1rem;
+  }
+  
+  .nav a {
+    color: #0d6efd;
+    text-decoration: none;
+  }
+  
+  .nav a:hover {
+    text-decoration: underline;
+  }
+  
+  h2 {
+    margin-top: 2.5rem;
+    font-size: 1.5rem;
+    color: #ffffff;
+    border-bottom: 1px solid #333;
+    padding-bottom: 0.5rem;
+  }
+  
+  section p {
+    margin: 1rem 0;
+  }
+  
+  .collapsible button.toggle {
+    display: block;
+    width: 100%;
+    background-color: #2c2c2c;
+    color: #f0f0f0;
+    border: none;
+    text-align: left;
+    padding: 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 1rem;
+    border-radius: 4px;
+  }
+  
+  .collapsible .content {
+    display: none;
+    background-color: #262626;
+    padding: 1rem;
+    margin-top: 0.5rem;
+    border-left: 3px solid #0d6efd;
+    border-radius: 4px;
+  }
+  
+  footer {
+    background-color: #121212;
+    text-align: center;
+    padding: 1.5rem 0;
+    color: #777;
+    font-size: 0.875rem;
+    border-top: 1px solid #333;
+  }
+  
+  b {
+    margin: 3rem;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    font-weight: bold;
+    display: inline-block;
+  }
+  
